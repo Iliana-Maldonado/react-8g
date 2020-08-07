@@ -5,7 +5,7 @@ function Greet({ firstName, lastName }) {
   return (
     <div>
       <p>
-        Hola {this.props.firstName} {this.props.lastName} {""}
+        Hola {firstName} {lastName} {""}
         <Badge color="secondary">New</Badge>
       </p>
     </div>
