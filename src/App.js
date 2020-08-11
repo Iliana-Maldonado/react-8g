@@ -1,18 +1,12 @@
 import React from "react";
 import "./App.css";
-
-//import SwitchExample from "./components/SwitchExample";
-//import Post from "./components/Post";
-import PostContainer from "./components/PostContainer";
-
+// Screens
+import BlogNotes from "./screens/NotesBlog";
 function App() {
   return (
-    /*<div className="App">
-      <SwitchExample />
-    </div>*/
-
-    <PostContainer />
+    <div className="App">
+      <BlogNotes />
+    </div>
   );
 }
-
 export default App;
